@@ -1,10 +1,10 @@
 # include <stdio.h>
 /**
-*main block
+*main block -print a character string
 *Return:o
 */
 int main(void)
 {
-        puts("\"Programming is like building a multilingual puzzle");
-        return (0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
