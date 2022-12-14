@@ -1,7 +1,7 @@
 # include <stdio.h>
 /**
-*main block -print a character string
-*Return:o
+*main-Entry
+*Return: Always 0
 */
 int main(void)
 {
