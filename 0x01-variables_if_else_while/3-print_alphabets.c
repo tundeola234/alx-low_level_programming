@@ -1,18 +1,20 @@
 #include <stdio.h>
 /**
-*main - Print the lowercase of the alphabets from A to Z
-*Return: Always 0
+* main - Print the alphabets in both lowercase and uppercase
+* Return: Always 0
 */
 
 int main(void)
 {
-	int x;
+	char ch;
 
-	for (x = 'A'; x <= 'Z'; x++)
-	{
-		char small = tolower(x);
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
 
-		putchar(small);
-	}
+	for (ch = 'A'; ch <= 'Z'; ch++)
+		putchar(ch);
+
+	putchar('\n');
+
 	return (0);
 }
